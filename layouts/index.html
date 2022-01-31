@@ -6,7 +6,7 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ "docs/prologue/introduction/" | relURL }}" role="button">Get started</a>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ "docs/filters/quickstart/" | relURL }}" role="button">Get started</a>
       <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON "https://raw.githubusercontent.com/h-enk/doks/master/package.json" }}{{ $data.version }}</a></p>
     </div>
   </div>
@@ -19,19 +19,19 @@
     <div class="row justify-content-center text-center">
       <div class="col-lg-5">
         <h2 class="h4">SDK Documentation</h2>
-        <p>Use our SDK documentation for mobile and web extension to build your own content-filtering applications.</p>
-      </div>
+        <p>Use our SDK documentation to build your own content-filtering applications.</p>
+      </div><!--
       <div class="col-lg-5">
         <h2 class="h4">API Documentation</h2>
         <p>Dig deeper into the APIs that power the extensions you can build with eyeo SDKs.</p>
-      </div>
+      </div>-->
       <div class="col-lg-5">
         <h2 class="h4">Filters</h2>
-        <p>Learn best practices for writing and incorporating filters and filter lists in extensions like Adblock Plus.</p>
+        <p>Learn best practices for writing and incorporating filters into extensions like Adblock Plus.</p>
       </div>
     </div>
     <div class="row justify-content-center text-center">
-      <div class="col-lg-5">
+      <!--<div class="col-lg-5">
         <h2 class="h4">Core Specifications</h2>
         <p>Dig into the core specifications you'll want to know when building your own applications.</p>
       </div>
@@ -42,7 +42,7 @@
       <div class="col-lg-5">
         <h2 class="h4">Support</h2>
         <p>Have a question? Reach out to our support team for help with using our products and documentation.</p>
-      </div>
+      </div>-->
     </div>
   </div>
 </section>
